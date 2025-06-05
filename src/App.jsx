@@ -19,11 +19,11 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Dashboards/>}></Route>
-        <Route path="/Categories" element={<Categories />}></Route>
-        <Route path="/Products" element={<Products />}></Route>
-        <Route path="/Incoming_orders" element={<Incoming_orders />}></Route>
-        <Route path="/Feedbacks" element={<Feedbacks />}></Route>
-        <Route path="/Prev_orders" element={<Prev_orders />}></Route>
+        <Route path="/categories" element={<Categories />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+        <Route path="/incoming-orders" element={<Incoming_orders />}></Route>
+        <Route path="/feedbacks" element={<Feedbacks />}></Route>
+        <Route path="/previous-orders" element={<Prev_orders />}></Route>
         
       </Routes>
     </Router>
